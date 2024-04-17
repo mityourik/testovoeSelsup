@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# ParamEditor React Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание проекта
 
-Currently, two official plugins are available:
+Компонент `ParamEditor` разработан на React и позволяет редактировать параметры товаров, такие как "Длина" и "Ширина". Компонент использует функциональный подход с хуками для управления состоянием. Это тестовое задание предназначено для демонстрации возможности работы с формами и состоянием в React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Функциональность
 
-## Expanding the ESLint configuration
+- **Динамическое редактирование параметров**: Позволяет пользователям в реальном времени изменять значения параметров.
+- **Отображение текущего состояния модели**: Возможность просматривать текущее состояние модели данных через интерфейс, что полезно для отладки и тестирования.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Технологии
 
-- Configure the top-level `parserOptions` property like this:
+- **React** (с использованием функциональных компонентов и хуков)
+- **TypeScript** для типизации и улучшения качества кода
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Установка и запуск
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Чтобы запустить проект локально, следуйте этим шагам:
+
+```bash
+# Клонировать репозиторий
+git clone git@github.com:mityourik/testovoeSelsup.git
+cd your-repository
+
+# Установить зависимости
+npm install
+
+# Запустить проект
+npm start
